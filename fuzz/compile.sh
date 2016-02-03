@@ -2,7 +2,7 @@
 
 # Variable AFL_CC is already taken!
 # Add afl-clang-fast to your PATH and/or adapt the following variable:
-readonly AFL_CC_BIN="${HOME}/afl/afl-1.94b/afl-clang-fast"
+readonly AFL_CC_BIN="${HOME}/afl/afl-1.96b/afl-clang-fast"
 #readonly AFL_CC_BIN="afl-gcc"
 
 export CC="$AFL_CC_BIN"
