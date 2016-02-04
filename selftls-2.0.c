@@ -246,6 +246,11 @@ static int mbedtls_send_custom( void *ctx, const unsigned char *buf,
     /* Read packet from file or write packet to file */
     if( packet_count == packet_in_num )
     {
+
+#ifdef __AFL_HAVE_MANUAL_CONTROL
+        __AFL_INIT();
+#endif
+
         FILE *in_file;
 #if !SOCKET_COMMUNICATION
         size_t rlen;
