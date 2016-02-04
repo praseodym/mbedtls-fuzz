@@ -1,0 +1,29 @@
+--- mbedtls-2.2.1/include/mbedtls/config.h
++++ mbedtls-2.2.1/include/mbedtls/config.h
+@@ -73,7 +73,7 @@
+  *
+  * Comment if your system does not support time functions
+  */
+-#define MBEDTLS_HAVE_TIME
++//#define MBEDTLS_HAVE_TIME
+ 
+ /**
+  * \def MBEDTLS_HAVE_TIME_DATE
+@@ -85,7 +85,7 @@
+  *
+  * Comment if your system does not have a correct clock.
+  */
+-#define MBEDTLS_HAVE_TIME_DATE
++//#define MBEDTLS_HAVE_TIME_DATE
+ 
+ /**
+  * \def MBEDTLS_PLATFORM_MEMORY
+@@ -2172,7 +2172,7 @@
+  *
+  * Requires: MBEDTLS_SSL_CACHE_C
+  */
+-#define MBEDTLS_SSL_CACHE_C
++//#define MBEDTLS_SSL_CACHE_C
+ 
+ /**
+  * \def MBEDTLS_SSL_COOKIE_C
