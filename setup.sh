@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 readonly MBEDTLS_2_2="mbedtls-2.2.1"
 readonly MBEDTLS_2_0="mbedtls-2.0.0"
